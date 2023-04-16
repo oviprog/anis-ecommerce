@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="this an ecommers project for making atik express">
+    <title>Ecommers project</title>
+
+    <!-- font awesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- css start here -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  
+
+    <!-- navbar starts here -->
+    <i class="fas fa-bars fa-2x" id="menu-icon"></i>
+    <nav id="menu" class="hidden">
+        <ul class="nav-upper flex-space-around">
+            <li class="nav_list">
+                <a href="index.html" 
+                class="nav_link">Home</a>
+            </li>
+            <li class="nav_list">
+                <a href="register.html" 
+                class="nav_link">Register</a>
+            </li>
+            <li class="nav_list">
+                <a href="login.html" 
+                class="nav_link">Login</a>
+            </li>
+            <li class="nav_list">
+                <a href="index.html" 
+                class="nav_link">Logout</a>
+            </li>
+            <li class="nav_list">
+                <a href="contact.html" 
+                class="nav_link">Contact</a>
+            </li>
+            <li class="nav_list">
+                <a href="profile.html" 
+                class="nav_link">
+                <img class="profile-icon" src="image/testomonial-3.jpg" alt="profile icon">
+            </a>
+            </li>
+        </ul>
+
+        <ul class="nav-lower flex-space-around">
+            <li class="nav_list">
+                <a href="index.html" class="nav_brand nav_link">
+                    Shahriar Express
+                </a></li>
+            <li class="nav_list">
+                <a href="cart.html" class="nav_link">
+                  <span><i class="fa-solid fa-cart-shopping"></i></span>
+                  Cart 2 products -$125.40
+                </a></li>
+        </ul>
+    </nav>
+    <!-- navbar ends here -->
+
+    <main class="flex-center">
+        <div class="main-content">
+            <section class="product-details flex-center">
+                <div class="product-details-left flex-center">
+                    <img src="image/product (1).jpg" alt="product1">
+                </div>
+                <div class="product-details-right">
+                    <h3 class="product-name">Sony V-3 Headphone</h3>
+                    <p>
+                        <span class="dot green"></span>
+                        <span class="dot blue"></span>
+                        <span class="dot red"></span>
+                    </p>
+                    <p class="product-description">
+                        <strong>Description:</strong>
+                       Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, voluptatum exercitationem quas similique delectus pariatur commodi magnam nemo, aut vitae quo fugiat hic porro rem minima sunt ipsam nesciunt placeat at nostrum dolorum? Commodi dolorum, nihil similique veniam assumenda sequi!
+                    </p>
+                    <p class="product-description">
+                       Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, voluptatum exercitationem quas similique delectus pariatur commodi magnam nemo, aut vitae quo fugiat hic porro rem minima sunt ipsam nesciunt placeat at nostrum dolorum? Commodi dolorum, nihil similique veniam assumenda sequi!
+                    </p>
+                    <h4 class="product-category">Category: Headphone</h4>
+                    <h4 class="product-price"> price:$220.99</h4>
+                    <p class="product-rating">Rating: 3.5/5</p>
+                    <button class="btn product-button">Add To Cart</button>
+                    <button class="btn product-button">Back To Shopping</button>
+                </div>
+            </section>
+        </div>
+    </main>
+
+
+     <!-- footer starts here -->
+     <footer class="footer flex-space-around">
+
+        <div class="flex-space-around">
+            <label for="subscribe"> Subscribe to Newsletter</label>
+            <input type="email" id="subscribe" name="subscribe" class="footer-input" placeholder="Your Email Address">
+            <button class="btn btn-subscribe">Subscribe</button>
+        </div>
+        <div>
+            <p>&copy; Copyright 2023  Shahriar Express.All rights reserved</p>
+        </div>
+
+     </footer>
+     <!-- footer Ends here -->
+     <script src="./scripts/index.js"></script>
+</body>
+</html>
